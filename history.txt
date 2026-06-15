@@ -1,0 +1,15 @@
+1. make a call to LLM <-- (First)
+2. LLM decides to invoke search function
+3. we call search function and store the result
+4. the result is send back to LLM (another call)<-- (Second)
+5. LLM gives the result
+
+2 api calls
+
+1. make a call to LLM <-- (First)
+2. LLM decides to invoke search function 
+3. we call search function and store the result
+4. send the result back to the LLM <-- (Second)
+5. LLM decides to go for another tool call
+6.Sends one more API req <-- (Third)
+7. sends back to LLm and It gives the answer
